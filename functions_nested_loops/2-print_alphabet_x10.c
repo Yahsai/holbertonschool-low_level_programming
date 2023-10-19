@@ -3,20 +3,18 @@
 /**
  *print_alphabet- entry point
  *
- *Description: prints alphabet x10
- *
- *Return: void
+ *Return: none
  */
 void print_alphabet_x10(void)
 {
 	char c;
 	int i;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (i = 0; i < 10; i++)
 	{
-		for (i = 1; i <= 10; i++)
-		{
-			putchar ((int)c);
+	for (i = 'a'; i < 'z'; c++)
+	{
+			putchar (c);
 		}
 	}
 	putchar ('\n');
