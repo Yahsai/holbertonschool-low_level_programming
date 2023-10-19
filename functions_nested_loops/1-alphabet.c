@@ -2,8 +2,11 @@
 #include "main.h"
 
 /**
- * *main - entry point
- * Return: always 0 (success)
+ *Print_alphabet - entry point
+ *
+ * Description: prints the alphabet with _putchar
+ *
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -14,4 +17,5 @@ void print_alphabet(void)
 		putchar ((int)c);
 	}
 	putchar ('\n');
+	return (0);
 }
