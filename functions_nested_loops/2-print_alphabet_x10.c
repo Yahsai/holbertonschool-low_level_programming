@@ -1,9 +1,7 @@
-#include<stdio.h>
-#include"main.h"
+#include "main.h"
 /**
- *print_alphabet- entry point
- *
- *Return: none
+ * print_alphabet_x10 - repeats the print_alphabet 10 times.
+ * Return: None.
  */
 void print_alphabet_x10(void)
 {
@@ -12,10 +10,14 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i < 10; i++)
 	{
-	for (i = 'a'; i < 'z'; c++)
-	{
-			putchar (c);
+		for (c = 'a'; c <= 'z'; c++)
+		{
+
+			_putchar(c);
 		}
+
+		_putchar('\n');
+
+
 	}
-	putchar ('\n');
 }
