@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *Print_alphabet - entry point
+ *print_alphabet - entry point
  *
  * Description: prints the alphabet with _putchar
  *
