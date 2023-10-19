@@ -7,17 +7,17 @@
  *
  *Return: void
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char c;
 	int i;
-}
+
 	for (c = 'a'; c <= 'z'; c++)
-
-	for (i = '1'; i <= '10'; i++)
-{
-	putchar ((int)c);
+	{
+		for (i = 1; i <= 10; i++)
+		{
+			putchar ((int)c);
+		}
+	}
+	putchar ('\n');
 }
-putchar ('\n')
-return (0);
-
