@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-	char*c;
+	char *c;
 
 	int i;
+
 	c = "_putchar";
 
 	for (i = 0; i < 8; i++)
@@ -17,5 +18,5 @@ int main(void)
 		_putchar (c[i]);
 	}
 _putchar('\n');
-return(0);
+return (0);
 }
