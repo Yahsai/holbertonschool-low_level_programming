@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * isalpha -returns 1 if c is lowecase and returns 0 otherwise
+ * _isalpha -returns 1 if c is lowecase and returns 0 otherwise
  * @c: is the imput character
  * Return: 1 if true 0 if false
  */
