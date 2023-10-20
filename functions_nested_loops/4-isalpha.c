@@ -2,7 +2,7 @@
 /**
  * isalpha -returns 1 if c is lowecase and returns 0 otherwise
  * @c: is the imput character
- * Return: 2.
+ * Return: 1 if true 0 if false
  */
 int _isalpha(int c)
 {
@@ -10,10 +10,10 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-
-	else
+	if (c >= 'a' && c <= 'z')
 	{
-		if (c >= 'a' && c <= 'z')
-			return (0);
+		return (1);
 	}
+	else
+		Return (0);
 }
