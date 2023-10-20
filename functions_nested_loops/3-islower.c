@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *_islower - returns 1 if c is lowecase and returns 0 otherwise
+ * @c: is the imput character
  *Return: 2.
  */
 int _islower(int c)
