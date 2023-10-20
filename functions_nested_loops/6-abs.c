@@ -4,9 +4,9 @@
  *@n: integer to check
  *Return: n
  */
-int _abs(int)
+int _abs(int i)
 {
-	if (n >= 0)
+	if (i >= 0)
 		return (n);
 
 	else
