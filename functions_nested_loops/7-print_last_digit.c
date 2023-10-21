@@ -1,10 +1,11 @@
 #include"main.h"
 /**
- * print_last_digit- prints last digit
- * @n: integer to modify
+ * print_last_digit - prints last digit
+ * @n: The number to be treated
  * Return: 1
  *
  */
+
 int print_last_digit(int n)
 {
 	int 1 : p;
