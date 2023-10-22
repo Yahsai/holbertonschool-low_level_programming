@@ -1,10 +1,10 @@
 #include"main.h"
 /**
- * times_table - prints the times table up to 9
+ * times_table - prints the times table up 9
  *
  * Return: void
  */
-void times_table(void)
+void times_tables(void)
 {
 	int a, b, c, d, e;
 
@@ -37,4 +37,3 @@ void times_table(void)
 	}
 	}
 }
-
