@@ -5,8 +5,12 @@
  *
  * Return: 1
  */
+
+
+
 int print_last_digit(int n)
 {
+
 	int l, p;
 
 	l = n % 10;
