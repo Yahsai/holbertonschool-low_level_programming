@@ -1,7 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
-int _puts(char *str)
+/**
+ *_puts - function that print strings
+ *@str: receives character
+ */
+
+void _puts(char *str)
 {
 
 	int i;
@@ -10,4 +15,6 @@ int _puts(char *str)
 	{
 		putchar(str[i]);
 	}
+
+	putchar('\n');
 }
