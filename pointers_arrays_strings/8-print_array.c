@@ -1,9 +1,10 @@
 #include"main.h"
+#include<stdio.h>
 
 /**
  * print_array - prints array
- * @a: receives pointer
- * @n: receives int
+ * @a: pointer of array
+ * @n: how many times to prints
  */
 
 void print_array(int *a, int n)
@@ -13,12 +14,12 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-	 _putchar("%d", a[i]);
+	 printf("%d", a[i]);
 
 		if (i != (n - 1))
 		{
-			_putchar(", ");
+			printf(", ");
 		}
 	}
-	 _putchar("\n");
+	 printf("\n");
 }
