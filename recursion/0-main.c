@@ -1,4 +1,3 @@
-julien@ubuntu:~/Recursion$ cat 0-main.c
 #include "main.h"
 
 /**
