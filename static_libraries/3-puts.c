@@ -5,7 +5,7 @@
  *@str: receives character
  */
 
-void _puts(char *str)
+void _puts(char *s)
 {
 	int i;
 
