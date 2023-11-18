@@ -1,23 +1,23 @@
 #include <stdio.h>
-#include"function_pointers.h"
+#include "function_pointers.h"
 #include <stdlib.h>
 
 /**
- * int_index - index intergers for array 
- * @array: array to be analyzed 
+ * int_index - index intergers for array
+ * @array: array to be analyzed
  * @size: elements of array
  * @cmp: pointer function
  * Return: elements
  */
 
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
-	int a:
+	int a;
 
-		if (array == 0 || cmp == 0)
-		{
-			return (-1);
-		}
+	if (array == 0 || cmp == 0)
+	{
+		return (-1);
+	}
 	if (size <= 0)
 	{
 		return (-1);
@@ -26,7 +26,7 @@ int int_index(int *array, int size, int (*cmp)(int));
 	{
 		if (cmp(array[a]))
 		{
-			return (a);
+		return (a);
 		}
 	}
 	return (-1);
