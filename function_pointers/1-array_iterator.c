@@ -1,33 +1,25 @@
 #include <stdio.h>
 #include "function_pointers.h"
-#include <stdlib.h>
+#include <string.h>
 
 /**
- * int_index - index intergers for array
- * @array: array to be analyzed
- * @size: elements of array
- * @cmp: pointer function
- * Return: elements
+ * array_iterator - array organizer
+ * @action: fucntion pointer
+ * @size: size of the array
+ * @array: array being created
+ * Return: void
  */
-
-int int_index(int *array, int size, int (*cmp)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int a;
+	size_t a;
 
-	if (array == 0 || cmp == 0)
+	if (action == NULL || array == NULL)
 	{
-		return (-1);
+		return;
 	}
-	if (size <= 0)
-	{
-		return (-1);
-	}
+
 	for (a = 0; a < size; a++)
 	{
-		if (cmp(array[a]))
-		{
-		return (a);
-		}
+	(*action)(array[a]);
 	}
-	return (-1);
 }
