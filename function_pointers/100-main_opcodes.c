@@ -13,14 +13,14 @@ int main(int argc, char *argv[]) {
 
     if (argc != 2) {
         printf("Error\n");
-        return 1;  /* Error code 1 for incorrect number of arguments */
+        return 1;
     }
 
     num_bytes = atoi(argv[1]);
 
     if (num_bytes < 0) {
         printf("Error\n");
-        return 2;  /* Error code 2 for negative number of bytes */
+        return 2;
     }
 
     /* Print opcodes */
@@ -30,6 +30,6 @@ int main(int argc, char *argv[]) {
 
     printf("\n");
 
-    return 0;  /* Success */
+    return 0;
 }
 
