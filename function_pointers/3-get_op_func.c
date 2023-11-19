@@ -1,7 +1,6 @@
 #include "3-calc.h"
 #include <stdlib.h>
 
-
 /**
  * get_op_func - gets a pointer to the function corresponding to the given operator
  * @s: string representing the operator
@@ -27,4 +26,3 @@ int (*get_op_func(char *s))(int, int) {
 
     return NULL;
 }
-
