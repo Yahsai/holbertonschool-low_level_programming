@@ -1,21 +1,11 @@
-#include <stdio.h>
 #include "lists.h"
 
-void before_main(void);
-
 /**
- * main - main function
- *
- * Return: Always 0.
+ * yahsai - prints text before main function executes
  */
-int main(void)
+
+void __attribute__ ((constructor)) yahsai(void)
 {
-    before_main();
-
-    return (0);
+	printf("You're beat! and yet, you must allow,\n"
+	       "I bore my house upon my back!\n");
 }
-
-void before_main(void) {
-    printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
-}
-
