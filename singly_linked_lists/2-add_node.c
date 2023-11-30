@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * add_node -  adds a new node
  * @head: Pointer with the address
