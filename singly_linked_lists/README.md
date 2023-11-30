@@ -1,2 +1,2 @@
-# Holberton
-## C- Singly linked lists
+## Holberton
+# C- singly linked lists
