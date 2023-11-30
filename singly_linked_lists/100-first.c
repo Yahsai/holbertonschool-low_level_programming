@@ -1,11 +1,18 @@
-#include "lists.h"
+#include <stdio.h>
+
+void before_main(void) {
+    printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
+}
 
 /**
- * yahsai - prints text before main function executes
+ * main - check the code
+ *
+ * Return: Always 0.
  */
+int main(void) {
+    before_main();
 
-void __attribute__ ((constructor)) yahsai(void)
-{
-	printf("You're beat! and yet, you must allow,\n"
-	       "I bore my house upon my back!\n");
+    printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
+    return 0;
 }
+
